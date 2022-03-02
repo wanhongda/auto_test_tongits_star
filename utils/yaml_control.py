@@ -19,6 +19,11 @@ def get_one_yaml_data(file_name):
     return temp
 
 
+def get_yaml_data_to_main(fileName):
+    file = open(fileName, 'r', encoding='utf-8')
+    res = yaml.load(file, Loader=yaml.FullLoader)
+    return res
+
 if __name__ == '__main__':
     resp1 = get_yaml_data("../data/home_project/cases/test002_try_test_api.yaml")
     resp2 = get_one_yaml_data("../data/home_project/apis/test002_try_test_api.yaml")

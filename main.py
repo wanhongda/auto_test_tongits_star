@@ -1,16 +1,21 @@
-# This is a sample Python script.
+# import pytest, os
+# from utils.yaml_control import get_yaml_data_to_main
+# from utils import *
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# if __name__ == '__main__':
+#     # 获取配置文件数据
+#     res = get_yaml_data_to_main('./config.yml')
+#
+#     # print(res)
+#     # print(res['runParams'])
+#     # print(res['reportParams'])
+#     # 报告所在路径及名称
+#     reportName = after_operation.build_repott_name()[0]
+#     ps_location = after_operation.build_repott_name()[1]
+#     # print(reportName)
+#     # print(ps_location)
+#     # pytest.main(["test002_try_test_api.py", "-s", '--alluredir', '{}/reports/result/'.format(reportName),
+#     #              '--clean-alluredir'])  #
+#     pytest.main(res['runParams'],'{}/reports/result/'.format(reportName))
+#     after_operation.generate_report_to_anywhere(reportName, ps_location)
+#     #
