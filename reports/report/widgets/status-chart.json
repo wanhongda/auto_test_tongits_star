@@ -1,21 +1,11 @@
 [ {
-  "uid" : "5f9c6aef1303e9ca",
+  "uid" : "81c9bc71eafcff3",
   "name" : "测试用例001",
   "time" : {
-    "start" : 1646745079886,
-    "stop" : 1646745080696,
-    "duration" : 810
+    "start" : 1646994092719,
+    "stop" : 1646994092914,
+    "duration" : 195
   },
   "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bbe57cdd30925428",
-  "name" : "测试用例001",
-  "time" : {
-    "start" : 1646745080704,
-    "stop" : 1646745080704,
-    "duration" : 0
-  },
-  "status" : "broken",
   "severity" : "normal"
 } ]

@@ -1,12 +1,12 @@
 {
-  "uid" : "5f9c6aef1303e9ca",
+  "uid" : "81c9bc71eafcff3",
   "name" : "测试用例001",
   "fullName" : "testcases.home_project.test002_try_test_api.Test_study#test_run_simple",
   "historyId" : "e9ed7d6e3f7c93ce97a84f54e01c8292",
   "time" : {
-    "start" : 1646745079886,
-    "stop" : 1646745080696,
-    "duration" : 810
+    "start" : 1646994092719,
+    "stop" : 1646994092914,
+    "duration" : 195
   },
   "description" : "尝试用allure生成美观的测试报告",
   "descriptionHtml" : "<p>尝试用allure生成美观的测试报告</p>\n",
@@ -18,6 +18,23 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "尝试用allure生成美观的测试报告",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "26725211dd0992e7",
+      "name" : "log",
+      "source" : "26725211dd0992e7.txt",
+      "type" : "text/plain",
+      "size" : 443
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "story",
@@ -39,7 +56,7 @@
     "value" : "SYDZSB1034"
   }, {
     "name" : "thread",
-    "value" : "17880-MainThread"
+    "value" : "20092-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -72,6 +89,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5f9c6aef1303e9ca.json",
+  "source" : "81c9bc71eafcff3.json",
   "parameterValues" : [ "8201", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
 }

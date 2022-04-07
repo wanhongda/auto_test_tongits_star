@@ -1,2 +1,3 @@
-2022-03-08-20-37-51 - connectionpool.py - connectionpool - _new_conn - 971 - DEBUG - Starting new HTTPS connection (1): itest.tongitsstar.com:443
-2022-03-08-20-37-51 - connectionpool.py - connectionpool - _make_request - 452 - DEBUG - https://itest.tongitsstar.com:443 "GET /data/handleMsg.do?v=YTZjMzE4NDc0ZDA1NzY5ODZlYWExMDYwZjk2NDczODAJIAAAH04nYnJhbmRvbV9tYWMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAsK0BADEuMDUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%0A HTTP/1.1" 200 None
+2022-03-09-18-24-10 - test003_study.py - test003_study - <module> - 7 - INFO - logging information
+2022-03-09-18-24-10 - connectionpool.py - connectionpool - _new_conn - 971 - DEBUG - Starting new HTTPS connection (1): itest.tongitsstar.com:443
+2022-03-09-18-24-10 - connectionpool.py - connectionpool - _make_request - 452 - DEBUG - https://itest.tongitsstar.com:443 "GET /data/handleMsg.do?v=MmRhOWNiYjNhZGE1MWI4ODk4OTI4MjM0ZTk4OWJhYWYJIAAASoAoYnJhbmRvbV9tYWMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAsK0BADEuMDUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%0A HTTP/1.1" 200 None

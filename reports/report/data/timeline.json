@@ -4,16 +4,16 @@
   "children" : [ {
     "name" : "SYDZSB1034",
     "children" : [ {
-      "name" : "17880-MainThread",
+      "name" : "20092-MainThread",
       "children" : [ {
         "name" : "测试用例001",
-        "uid" : "5f9c6aef1303e9ca",
-        "parentUid" : "0c0100676f270f1e0dca5dbf4c5ebac4",
+        "uid" : "81c9bc71eafcff3",
+        "parentUid" : "66ba3960a89533ec693231015525ff26",
         "status" : "passed",
         "time" : {
-          "start" : 1646745079886,
-          "stop" : 1646745080696,
-          "duration" : 810
+          "start" : 1646994092719,
+          "stop" : 1646994092914,
+          "duration" : 195
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,25 +22,8 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "8201", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
-      }, {
-        "name" : "测试用例001",
-        "uid" : "bbe57cdd30925428",
-        "parentUid" : "0c0100676f270f1e0dca5dbf4c5ebac4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1646745080704,
-          "stop" : 1646745080704,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "[4097, 0, '', 'auth_register_test']", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
       } ],
-      "uid" : "0c0100676f270f1e0dca5dbf4c5ebac4"
+      "uid" : "66ba3960a89533ec693231015525ff26"
     } ],
     "uid" : "2a939c823a4a887801caae2b3e7da164"
   } ]

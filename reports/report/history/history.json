@@ -9,32 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5f9c6aef1303e9ca",
+      "uid" : "81c9bc71eafcff3",
       "status" : "passed",
       "time" : {
-        "start" : 1646745079886,
-        "stop" : 1646745080696,
-        "duration" : 810
-      }
-    } ]
-  },
-  "4ca1f219c6baa89c989c37e43027a134" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "bbe57cdd30925428",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'list' object has no attribute 'to_bytes'",
-      "time" : {
-        "start" : 1646745080704,
-        "stop" : 1646745080704,
-        "duration" : 0
+        "start" : 1646994092719,
+        "stop" : 1646994092914,
+        "duration" : 195
       }
     } ]
   }

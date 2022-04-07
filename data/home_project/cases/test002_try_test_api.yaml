@@ -2,8 +2,8 @@
   url: "https://itest.tongitsstar.com/data/handleMsg.do"
   params: 0x2009
   status: 0
--
-  url: "https://itest.tongitsstar.com/data/handleMsg.do"
-  params: [0x1001 ,0 ,"" ,auth_register_test]
-  status: 0
+#-
+#  url: "https://itest.tongitsstar.com/data/handleMsg.do"
+#  params: 0x1001
+#  status: 4097
 

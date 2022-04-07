@@ -2,22 +2,22 @@ import os
 import time
 
 
-def build_repott_name():
+def build_report_name():
     temp = []
     reportName = os.path.dirname((os.path.dirname(__file__)))
     # print(reportName)
     # report目录，需要再此目录下打开powershell，输入anywhere，转发报告内容
-    ps_location = '{}\\reports\\report'.format(reportName)
+    ps_location = reportName + '/reports/report'
     temp.append(reportName)
     temp.append(ps_location)
     return temp
 
 
-def generate_report_local(reportName, ps_location):
+def generate_report_local(reportName):
     # print(reportName)
     os.system("allure generate {}/reports/result/ -o {}/reports/report/ --clean".format(reportName, reportName))
     # 运行完后自动打开报告 与anywhere自动打开报告冲突
-    os.system("allure open -h 127.0.0.1 -p 8883 {}/reports/report/".format(reportName))
+    # os.system("allure open -h 127.0.0.1 -p 8883 {}/reports/report/".format(reportName))
     print("***执行完成，输出报告***")
 
 
@@ -32,4 +32,6 @@ def generate_report_to_anywhere(reportName, ps_location):
 
 
 if __name__ == '__main__':
-    build_repott_name()
+    print(build_report_name())
+    # build_report_name()
+    # print(os.path.dirname((os.path.dirname(__file__))))

@@ -1,5 +1,0 @@
-runParams:
-  - testcases/home_project/
-  - -vs
-  - --alluredir
-

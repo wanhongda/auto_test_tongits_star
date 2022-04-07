@@ -10,26 +10,17 @@ import os
 import requests
 from assertpy import assert_that
 import allure
-# import sys
-# sys.path.append(r"C:\ProgramData\Jenkins\.jenkins\workspace\tongits_star_auto_test_api")
-# sys.path.append(r"C:\ProgramData\Jenkins\.jenkins\workspace\tongits_star_auto_test_api")
 
 from utils import *
 
 
-# from utils import *
-
-
-# from utils import yaml_control
-# from utils import pre_build_data
-# from utils import ByteTracker
-# from utils import GameTestUtils
-# from utils import SignarureUtils
 @allure.feature("Tongits Star登录接口")
 class Test_study:
     # 接口yaml所在路径，后面可做成配置文件，依据文件目录、命名来设定yaml所在地址与名称
-    file_name_cases = "../../data/home_project/cases/test002_try_test_api.yaml"
-    # file_name_apis = "../../data/home_project/apis/test002_try_test_api.yaml"
+    data_path = os.path.dirname(os.path.dirname((os.path.dirname(__file__))))
+    file_name_cases = "{}/data/home_project/cases/test002_try_test_api.yaml".format(data_path)
+    # file_name_apis = "{}/data/home_project/csses/test002_try_test_api.yaml".format(data_path)
+
     # 处理用例数据
     data = yaml_control.get_yaml_data(file_name_cases)
     # url = yaml_control.get_one_yaml_data(file_name_apis)
@@ -68,9 +59,9 @@ class Test_study:
 
 if __name__ == '__main__':
     # 报告所在路径及名称
-    reportName = after_operation.build_repott_name()[0]
-    ps_location = after_operation.build_repott_name()[1]
-    # print(ps_location)
-    pytest.main(["test002_try_test_api.py", "-s", '--alluredir', '{}/reports/result/'.format(reportName),
+    reportName = after_operation.build_report_name()[0]
+    ps_location = after_operation.build_report_name()[1]
+    print(ps_location)
+    pytest.main(["test002_try_test_api.py", '--alluredir', '{}/reports/result/'.format(reportName),
                  '--clean-alluredir'])  #
     after_operation.generate_report_to_anywhere(reportName, ps_location)
